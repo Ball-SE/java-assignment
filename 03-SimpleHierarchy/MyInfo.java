@@ -2,15 +2,13 @@ class Vehicle{
     String brand;
 
     void start(){
-        System.out.println(brand + " Vehicle started");
+        System.out.println(brand + " กำลังสตาร์ท...");
     }
-
-
 }
 
 class Car extends Vehicle{
     void drive(){
-        System.out.println(brand + " Car is driving");
+        System.out.println(brand + " กำลังขับเคลื่อนบนถนน");
     }
 }
 

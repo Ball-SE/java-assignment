@@ -19,15 +19,15 @@ class Car{
     }
 
     void displayInfo(){
-        System.out.println("Car brand:" + brand + ", Speed:" + speed + "km/h");
+        System.out.println("Car brand: " + brand + ", Speed: " + speed + "km/h");
     }
 }
 
 public class MyInfo {
     public static void main(String[] args) {
         Car myCar = new Car();
-        myCar.setBrand("Toyota");
-        myCar.setSpeed(100);
+        myCar.setBrand("GTR R35");
+        myCar.setSpeed(320);
         myCar.displayInfo();
     }
 }
